@@ -1,0 +1,19 @@
+{
+  "name": "wordpresstest",
+  "version": "1.0.0",
+  "description": "This is a WordPress test environment leveraging Docker.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon1701/WordpressTest.git"
+  },
+  "author": "Jon1701",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jon1701/WordpressTest/issues"
+  },
+  "homepage": "https://github.com/Jon1701/WordpressTest#readme"
+}
