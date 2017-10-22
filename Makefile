@@ -8,7 +8,7 @@ PLUGIN_NAME=hyperion
 REMOTE_WP_PLUGINS_FOLDER=/var/www/html/wp-content/plugins
 
 build:
-	./node_modules/.bin/webpack
+	NODE_ENV=production ./node_modules/.bin/webpack
 
 copy-plugin: build
 	@docker exec ${CONTAINER_NAME_WP} rm -Rf ${REMOTE_WP_PLUGINS_FOLDER}/${PLUGIN_NAME}
